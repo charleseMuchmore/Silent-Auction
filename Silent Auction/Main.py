@@ -16,10 +16,9 @@ while cont == True:
         cont = False
 for key in user_info:
     compare(user_info, key)
-for key in user_info:
     number_of_people += 1
-for key in user_info:
     num_times = user_info[key]['times']
     if num_times == number_of_people - 1:
         clear()
         print(f'{key} is the winner, bidding ${user_info[key]["bid"]}!')
+    
